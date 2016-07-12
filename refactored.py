@@ -20,7 +20,7 @@ def solve_problem():
     numsum = (sum(numa))
     numb = get_sevs()
     numsumb = (sum(numb))
-    return numsumb - numsum
+    return numsum - numsumb
 
 if __name__ == '__main__':
        print(solve_problem())
